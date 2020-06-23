@@ -2,18 +2,18 @@
 /*---------------도입부 이미 --------------*/
 
 .backgroundimage{
-    background-image:url( "img/main.jpg" );
+    background-image:url( "main.jpg" );
     background-repeat:no-repeat;
 
 }
 
 .backgroundimage2{
-    background-image:url( "img/미니멀리스트GUI-1.jpg" );
+    background-image:url( "미니멀리스트GUI-1.jpg" );
     background-repeat:no-repeat;
 }
 
 .backgroundimage3{
-        background-image:url( "img/designwords2.png" );
+        background-image:url( "designwords2.png" );
         max-width: 100%;
         background-repeat:no-repeat;
 
