@@ -1,0 +1,49 @@
+
+
+/*---------------네비게이션 (클래스 변경해야함)--------------*/
+
+h1, h2, h3, h5, h4, h6, p, ul, a, button{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+      body{
+      margin: 0px 0px 0px 0px;
+}
+
+        .navibtn {
+            border: none;
+            background-color: inherit;
+            cursor: pointer;
+            color: gray;
+            font-size:16px;
+            padding:20px;
+
+          }
+
+          #right{
+          text-align: right;
+
+
+      }
+
+        .navigrid{
+          display:grid;
+          grid-template-columns: 150px 1fr;
+          border-bottom: 1px solid  #d9d9d9;
+          background: white;
+          position: sticky;
+          top: 0;
+          padding:15px 35px 12px 35px;
+    }
+
+
+        #hide{
+        display: none;
+    }
+
+
+
+
+
+    /*----------------화면 축소 (네비게이션)----------------*/
+    @media(max-width:1000px){

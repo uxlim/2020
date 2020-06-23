@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  
+  </head>
+
+
+  <body>
+
+
+
+  <button class="button" onclick="location.href='https://xd.adobe.com/view/7c41970a-fcbe-47bb-4e34-6c3d22f94e8c-0a70/?fullscreen'"><span>Test Prototype</span></button>
+
+
+    <a href="http://a.com">list1</a>
+      <a href="http://a.com">list2</a>
+        <a href="http://a.com">list3</a>
+          <a href="http://a.com">list4</a>
+
+
+    <input type="button" value="night" onclick="
+    var target = document.querySelector('body');
+    if(this.value === 'night'){
+    target.style.backgroundColor = 'black';
+    target.style.color = 'white' ;
+    this.value = 'day';
+
+    var alist = document.querySelectorAll('a');
+    var i = 0;
+    while(i < alist.length){
+      alist[i].style.color='powderblue';
+        i = i + 1;
+    }
+
+    } else {
+    target.style.backgroundColor='white';
+    target.style.color = 'black';
+    this.value = 'night';
+
+    var alist = document.querySelectorAll('a');
+    var i = 0;
+    while(i < alist.length){
+      alist[i].style.color='blue';
+        i = i + 1;
+    }
+  }
+">
+
+
+
+</body>
+</html>
+
+
+<!-- 버튼
+
+<input type="button" value="코스짜기" onclick="
+document.querySelector('body').style.backgroundColor='black';
+document.querySelector('body').style.color='white';
+">
+
+-->
+
+
+
+<!-- 낮과밤버튼 조건문/리팩토링
+
+<input type="button" value="night" onclick="
+var target = document.querySelector('body');
+if(this.value === 'night'){
+target.style.backgroundColor = 'black';
+target.style.color = 'white' ;
+this.value = 'day';
+
+} else {
+target.style.backgroundColor='white';
+target.style.color = 'black';
+this.value = 'night';
+}
+">
+
+-->
+
+<!-- array 배열
+
+
+<script>
+var activity = ["책 한 권 보기","낮술마시기"];
+</script>
+
+
+<script>
+document.write(activity[0]);
+document.write(activity[1]);
+</script>
+
+<script>
+activity.push('청소하기');
+activity.push('식물 가꾸기');
+</script>
+
+
+
+<h2>count</h2>
+
+<script>
+document.write(activity.length);
+</script>
+
+-->
+
+
+
+<!-- 반복문
+<h1>loop</h1>
+<ul>
+<script>
+  document.write('<li>1</li>');
+  var i = 0;
+  while(i < 3){
+    document.write('<li>2</li>');
+    document.write('<li>3</li>');
+    i = i + 1;
+  }
+  document.write('<li>4</li>');
+</script>
+</ul>
+
+-->
+
+
+
+
+
+<!-- 반복문과 배열
+
+<h1>loop&Array</h1>
+
+<script>
+var random = ['책보기','도서관 가기','청소하기'];
+</script>
+
+<h2>random course<h2>
+
+<ul>
+    <script>
+    var i = 0;
+    while(i < random.length){
+      document.write('<li><a href="http://a.com/'+random[i]+'">'+random[i]+'</li>');
+      i = i + 1;
+    }
+    </script>
+</ul>
+
+
+-->

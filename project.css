@@ -1,0 +1,424 @@
+
+/*---------------도입부 이미 --------------*/
+
+.backgroundimage{
+    background-image:url( "img/main.jpg" );
+    background-repeat:no-repeat;
+
+}
+
+.backgroundimage2{
+    background-image:url( "img/미니멀리스트GUI-1.jpg" );
+    background-repeat:no-repeat;
+}
+
+.backgroundimage3{
+        background-image:url( "img/designwords2.png" );
+        max-width: 100%;
+        background-repeat:no-repeat;
+
+
+}
+
+
+
+/*--------------- 중복이라 삭제 가능 --------------*/
+body{
+        margin: 0px 0px 0px 0px;
+
+    }
+
+/*--------------- 내용 --------------*/
+
+    h1, h2, h3, h5, h4, h6, p, ul, button{
+        font-family: 'Nunito Sans', sans-serif;
+
+}
+
+
+    h1 {
+      position: sticky;
+      top: 80px;
+      font-size:25px;
+      color: #cfcfcf;
+      display: block;
+      padding: 20px;
+      text-align:center;
+      /*
+      background-image: linear-gradient(to right, #4b42f4 , #ededed);
+
+      */
+      background-color: #f7f7f7;
+      opacity: 97%;
+}
+
+  .title {
+    font-size:35px;
+    font-weight: 600;
+    color: #4b42f4;
+    display: block;
+}
+
+
+    h2 {
+      font-size:20px;
+      font-weight: 800;
+      color: #4b42f4;
+      display: block;
+      text-transform: uppercase;
+      margin: 0px;
+      margin-bottom: 15px;
+    }
+
+
+    h3 {
+      font-size:28px;
+      font-weight: 700;
+      color:#2b2b2b;
+      margin: 0px;
+
+}
+
+    h4 {
+      font-size:18px;
+      font-weight: black;
+      color:#5b5b5b;
+}
+
+    h5 {
+      font-size:25px;
+      font-weight: 500;
+      color:black;
+      padding-bottom: 50px;
+}
+
+    h6 {
+      font-size:12px;
+      color:#a0a0a0;
+      font-weight: 100;
+}
+
+    p, ul{
+      font-size:18px;
+      color:#999999;
+      line-height:38px;
+    }
+
+
+    li{
+      font-size:18px;
+      color:black;
+      line-height:35px;
+    }
+
+
+    .feature {
+      font-size:20px;
+      font-weight: 800;
+      color: #4b42f4;
+      display: block;
+      margin-bottom: 15px;
+  }
+
+
+
+
+
+
+    img {
+      max-width: 100%;
+      height: auto;
+}
+
+    strong {
+      color:#999999;
+      font-weight: 500;
+
+
+    }
+
+
+
+br{
+  display: block;
+}
+
+
+    .textarea{
+        padding: 0px 200px 0px 200px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        font-family: 'Nunito Sans', sans-serif;
+}
+
+    .grayarea{
+        padding: 100px 250px 100px 250px;
+        background-color: #f7f7f7;
+        font-family: 'Nunito Sans', sans-serif;
+
+}
+
+
+        .center {
+        text-align: center;
+        }
+
+/*---------------화면 분할--------------*/
+
+.grid2{
+  display:grid;
+  grid-template-columns: 1fr 100px 300px;
+}
+
+.grid3{
+  display:grid;
+  grid-template-columns: 1fr 0px 1fr;
+}
+
+
+.gridcenter{
+    padding-top: 200px;
+}
+
+
+.gridimg{
+  display:grid;
+  grid-template-columns: 800px 5px 1fr;
+}
+
+
+
+/*---------------버튼 스타일--------------*/
+
+
+      .button, .button2, .button3 {
+        display: inline-block;
+        border: 1px solid #4b42f4 ;
+        border-radius: 50px;
+        text-align: center;
+        padding: 12px;
+        width: 200px;
+        cursor: pointer;
+        margin-bottom: 5px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 18px;
+        transition: 0.3s;
+}
+      .button {
+        background-color: #4b42f4;
+        color: #FFFFFF;
+        transition: 0.3s;
+      }
+
+      .button:hover{
+      background-color: #FFFFFF;
+      color: #4b42f4;
+}
+
+      .button2 {
+      background-color: #FFFFFF;
+      color: #4b42f4;
+      }
+
+      .button2:hover{
+      background-color: #4b42f4;
+      color: #FFFFFF;
+
+      }
+      .button3 {
+      background-color: #70ffa9;
+      color: white;
+      border: 2px solid #70ffa9;
+      }
+
+      .button3:hover{
+      background-color: white;
+      color: #70ffa9;
+      border: 2px solid #70ffa9;
+
+      }
+
+/*--------------- 스무스스크롤 --------------*/
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      #step1 {
+        height: 0px;
+      }
+
+      #step2 {
+        height: 0px;
+      }
+
+      #step3 {
+        height: 0px;
+      }
+
+      #step4 {
+        height: 0px;
+      }
+
+
+
+
+/*----------------미니멀리스트 개별 스타일----------------*/
+    .projectname{
+      font-family: 'Comfortaa', cursive;
+    }
+
+
+
+
+/*----------------이미지 갤러리 ----------------*/
+
+
+
+
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      display: inline-block;
+      max-width: 30%;
+    }
+
+    div.gallery:hover {
+      border: 1px solid #4b42f4;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+      color:#5b5b5b;
+    }
+
+
+
+
+
+/*----------------화면 축소 (네비게이션)----------------*/
+@media(max-width:1000px){
+
+
+            h1 {
+              top: 0px;
+              font-size:28px;
+              font-weight: 600;
+              color: white;
+              display: block;
+              background-color: #4b42f4 ;
+              padding-top: 12px;
+              margin-bottom: 100px;
+              text-align: left;
+              display: none;
+
+          }
+
+              .title {
+              font-size:28px;
+              font-weight: 600;
+              color: #4b42f4;
+
+  }
+
+              h2 {
+                font-size:24px;
+                font-weight: 700;
+                color:black;
+                padding-bottom: 0px;
+                text-transform: uppercase;
+                margin:0px;
+
+          }
+
+              h3 {
+                font-size:20px;
+                font-weight: 600;
+                color:#2b2b2b;
+          }
+
+              h4 {
+                font-size:18px;
+                font-weight: black;
+                color:#5b5b5b;
+          }
+
+
+          h5 {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+
+              h6 {
+                font-size:12px;
+                color:#a0a0a0;
+                font-weight: 100;
+          }
+
+              p, ul, li{
+                font-size:16px;
+                color:#999999; /*   #5b5b5b;  */
+                line-height:32px;
+              }
+
+              strong {
+                max-width: 100%;
+                color:black;
+                font-weight: 600;
+              }
+
+
+              br{
+                display: none;
+              }
+
+            .gridcenter{
+              padding-top: 50px;
+              }
+
+
+              .textarea{
+                      padding: 0px 30px 0px 30px;
+                      padding-top: 100px;
+                      padding-bottom: 100px;
+                      font-family: 'Nunito Sans', sans-serif;
+          }
+
+                .grid2{
+                    display:none;
+                    margin: 0px;
+                    padding: 0px;
+                      }
+
+                .grid3{
+                      display:none;
+                      margin: 0px;
+                      padding: 0px;
+
+                    }
+
+
+        .grayarea{
+          padding: 100px 25px 100px 25px;
+        }
+
+
+        div.gallery {
+          margin: 5px;
+          border: 1px solid #ccc;
+          float: left;
+          max-width: 30%;
+          height: auto;
+        }
+
+
+
+
+}

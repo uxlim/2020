@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="nav.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+
+  </head>
+  <body>
+
+
+    <!--네비게이션--------->
+
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="index.html" class="active">lim.
+
+        <!--<img src="img/indexlogo-2.png" width=35px;>-->
+        </a>
+      <div id="myLinks">
+        <a class="center" href="1.html">About</a>
+        <a class="center" href="2.html">Project</a>
+        <a class="center" href="3.html">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img src="img/navi.png" width="17px">
+      </a>
+    </div>
+
+
+
+
+    <!-- End smartphone / tablet look -->
+    </div>
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+        </body>
+
+        </html>
+
+
+
+
+
+
+<!--- <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="navi.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+
+  </head>
+  <body>
+
+    <div class="navigrid">
+      <div class="homepagelogo">
+       <a href="index.html"><img src="img/indexlogo-1.png" Width="40px"></a>
+      </div>
+
+
+
+      <div id="right">
+        <a class="navibtn" href="1.html">About</a>
+        <a class="navibtn" href="2.html">Project</a>
+        <a class="navibtn" href="3.html">Contact</a>
+        <div id="hide">
+        <div class="dropdown">
+        <button onclick="dropdownfn()" class="dropbtn"><img src="img/navi.png" width="20px"></button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="1.html">About</a>
+          <a href="2.html">Project</a>
+          <a href="3.html">Contact</a>
+              </div>
+        </div>
+      </div>
+
+      </div>
+  </div>
+
+
+
+
+
+
+    <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function dropdownfn() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+
+    </body>
+
+    </html>
+-->
